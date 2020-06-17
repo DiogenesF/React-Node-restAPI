@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(241, 240, 240);
+}
+
+.container .posts {
+  background-color: rgb(134, 203, 233);
+}
+
+.post-list {
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+input {
+  border: 1px solid black;
+  padding: 12px 20px;
+  margin: 5px 0;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+input:read-only {
+  background-color: lightgray;
+}
+
+.name {
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+
+h4 {
+  cursor: pointer;
+}
+
+h4:hover {
+  font-size: 17px;
+}
+
+.company {
+  color: rgb(136, 153, 166);
+  font-size: 15px;
+}
+
+.comment {
+  margin-top: -2rem;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+
+  background-color: rgb(188, 235, 255);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 3rem 0 3rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .flex {
+    display: block;
+    margin: auto;
+  }
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
