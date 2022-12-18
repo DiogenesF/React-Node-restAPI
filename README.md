@@ -1,20 +1,19 @@
 # growth-tech-desafio
 
-Aplicação que no backend consome dados de uma API e serve esses dado pro frontend.
-No frontend os dados são recebidos e exibidos.
+A project that consumes data from an API and sends this data to the frontend to be rendered
 
-Há features de filtro por searchbox e uma página com dados detalhados caso o usuário clique em um card
+There are filter by searchbox and a detailed page for each data
 
 ## Quick Start
-Entre nos dois diretórios e rode: 
+Acess both directories and run: 
 ### npm install
-para instalar as dependências.
+to install the dependencies
 
-No diretório do backend, inicialize o server:
+In the backend directory, initialize the server:
 ### node index
 
-No diretório do frontend, inicialize a aplicação:
+In the frontend directory, initialize the app:
 ### npm start
 
-Abra [http://localhost:3000](http://localhost:3000) para visualizar a aplicação.
+The app will be running on [http://localhost:3000](http://localhost:3000)
 
